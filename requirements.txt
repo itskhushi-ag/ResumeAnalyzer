@@ -2,14 +2,14 @@ streamlit
 python-dotenv
 PyPDF2
 nltk
-spacy==3.6.0
+spacy
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
-thinc==8.1.11
-numpy==1.23.5
+thinc
+numpy
 pandas
 base64io
-pyresparser==1.0.6
-dateparser==1.1.8
+pyresparser
+dateparser
 pdfminer.six
 streamlit-tags
 Pillow
