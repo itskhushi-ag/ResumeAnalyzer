@@ -2,7 +2,6 @@ streamlit
 python-dotenv
 PyPDF2
 nltk
-spacy==3.6.0
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
 pandas
 base64io
@@ -15,3 +14,7 @@ plotly
 google-generativeai
 youtube_dl
 pafy
+numpy==1.23.5
+spacy==3.6.0
+thinc==8.1.11
+
