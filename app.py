@@ -1,3 +1,11 @@
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+
+
+
+
 import streamlit as st
 import google.generativeai as genai
 import os
