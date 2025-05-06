@@ -12,7 +12,7 @@ import os
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 import spacy
-from youtubesearchpython import VideosSearch  # For YouTube suggestions
+# from youtubesearchpython import VideosSearch  # For YouTube suggestions
 
 # Load environment variables from .env
 load_dotenv()
@@ -116,11 +116,11 @@ if uploaded_resume and job_description:
         missing_skills = list(set(job_skills) - set(resume_skills))
         st.write(f"🛠️ Missing Skills: `{missing_skills}`")
 
-        if missing_skills:
-            st.subheader("🎥 Suggested YouTube Tutorials")
-            video_links = suggest_youtube_videos(missing_skills)
-            for skill, link in video_links:
-                st.markdown(f"- **{skill.title()}**: [Watch Tutorial]({link})")
+        # if missing_skills:
+        #     st.subheader("🎥 Suggested YouTube Tutorials")
+        #     video_links = suggest_youtube_videos(missing_skills)
+        #     for skill, link in video_links:
+        #         st.markdown(f"- **{skill.title()}**: [Watch Tutorial]({link})")
 
         # Gemini AI analysis
         prompt = (
